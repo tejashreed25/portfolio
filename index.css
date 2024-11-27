@@ -1,0 +1,152 @@
+/* GLOBAL STYLES-------------------- */
+
+html{
+    box-sizing: border-box;
+    background-image: url("../Desktop/bg-home-office-studio.jpg");
+}
+
+,::before,*::after{
+    box-sizing: inherit;
+}
+
+html,body {
+    
+    height: 100%;
+}
+
+body {
+    /*background: #f6f6f6;*/
+    margin: 0;
+    
+}
+
+.content-wrapper{
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+
+/* Links------------------ */
+a{
+    color: #3c8453;
+}
+
+
+a:hover{
+    color: #bcaabc;
+}
+
+.btn a{
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.btn{
+    background: #3c8543;
+    color: #f6f6f6;
+    text-decoration:none;
+    padding: 10px 20px;
+}
+
+/* HOME ---------------------- */
+.home {
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .content-wrapper {
+   background-color: rgba(250, 235, 215, 0.645);
+    flex: 1 0 auto;
+    font-family: "Sevillana", cursive;
+}
+.container{
+    padding: 30px;
+    background: rgb(255, 255, 255/0.9);
+}
+/* RESUME -------------------- */
+.resume header::before{
+    background-image: url(images.jpg);
+    background-size: cover;
+    display: block;
+    height: 600px;
+    content: "";
+    
+}
+
+.resume-section{
+    margin-bottom: 50px;
+}
+
+.resume-section h2{
+    border-bottom: 2px dashed #d3d4d6;
+}
+
+.download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+/* Profile Summary ------------------- */
+
+
+/* Projects ------------------------- */
+.project-item{
+    display: flow-root;
+    margin: 30px 0;
+}
+
+.project-item img{
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Education ----------------- */
+
+
+/* Certifications ------------------------- */
+
+
+/* Technical Skills --------------------- */
+
+
+
+/* Achievements ------------------------- */
+
+
+/* Footer ---------------------- */
+footer{
+    background-color: #222;
+    color:#d3d4d6;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer a{
+    color: #bcaa96;
+}
+
+footer a:hover{
+    color:#3c8453 ;
+}
+
+.socials{
+    list-style-type: none;
+}
+
+.socials li{
+    display:inline-block;
+}
+
+.socials img{
+    width:32px;
+}
+.socials
